@@ -23,6 +23,5 @@ int digit_sum(int n) {
 int main(void) {
   int a = atof(readline("Enter an int: "));
   printf("sum of digits of %d is %d.\n",a,digit_sum(a));
-  
   return 0;
 }
